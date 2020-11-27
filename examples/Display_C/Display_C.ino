@@ -9,9 +9,9 @@ void setup(){
 }
 
 void loop(){
-    lcd.display_Char('H');
+    lcd.display_Char('H');   //显示‘H’
     delay(1000); 
-    lcd.undisplay_Char('H');
+    lcd.undisplay_Char('H'); //不显示‘H’
     delay(1000);  
     lcd.display_Char('P');
     delay(1000); 
