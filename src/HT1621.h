@@ -61,10 +61,10 @@ public:
 	void print(double num, int precision = 3);
 	void display();
 	void noDisplay();
-    void displayVcc(float number);
-    void display_Battery(int num);
-    void display_Char(char num);
-    void undisplay_Char(char num);
+        void displayVcc(float number);
+        void display_Battery(int num);
+        void display_Char(char num);
+        void undisplay_Char(char num);
 private:
 	int _cs_p;
 	int _wr_p;
